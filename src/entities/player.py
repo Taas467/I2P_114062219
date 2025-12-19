@@ -165,7 +165,8 @@ class Player(Entity):
 
 
 
-            if self.game_manager.in_happy():
+            if self.game_manager.in_happy() and self.game_manager.is_run():
+                self.game_manager.update_run(False)
                 self.lol()
 
         super().update(dt)

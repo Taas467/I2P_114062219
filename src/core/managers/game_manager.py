@@ -53,6 +53,7 @@ class GameManager:
         self.next_map = ""
         self.gscene=False
         self.gsceneinfo={}
+        self.run=False
         
 
     @property
@@ -188,6 +189,11 @@ class GameManager:
 
     def delmode_battle(self):
         self.battle_end = False
+    def update_run(self,bool):
+        self.run=bool
+
+    def is_run(self):
+        return self.run
 
     def battle_end_search(self):
         return self.battle_end

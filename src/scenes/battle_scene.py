@@ -238,6 +238,7 @@ class BattleScene(Scene):
             def Run():
                 if self.turn != "player":
                     return
+                self.game_manager.update_run(True)
                 self.push_message("Player ran away!", 1.2, self.back2game)
 
             def wrapped():
@@ -288,6 +289,7 @@ class BattleScene(Scene):
         if self.player_hp <= 0:
             self.player_hp = self.player_max
             self.push_message(f"{msg} Player defeated!", 1.5, self.back2game)
+            self.game_manager.update_run(True)
             return
 
         self.push_message(msg, 1.2, backplayer)

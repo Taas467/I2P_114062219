@@ -117,8 +117,8 @@
         }
       ],
       "player": {
-        "x": 34.0,
-        "y": 14.0
+        "x": 28.0,
+        "y": 4.0
       },
       "enemy_trainers": [
         {
@@ -146,8 +146,8 @@
         }
       ],
       "player": {
-        "x": 4.0,
-        "y": 3.0
+        "x": 4,
+        "y": 3
       },
       "enemy_trainers": [],
       "seller": []
@@ -155,8 +155,8 @@
   ],
   "current_map": "mountain.tmx",
   "player": {
-    "x": 36.0,
-    "y": 1.0
+    "x": 5.0,
+    "y": 5.0
   },
   "bag": {
     "monsters": [
@@ -164,7 +164,7 @@
         "name": "Grass-2",
         "base": 340,
         "level": 25,
-        "exp": 70,
+        "exp": 130,
         "max_hp": 41,
         "hp": 42,
         "atk": 15,
@@ -185,50 +185,10 @@
         "name": "deergod",
         "base": 750,
         "level": 80,
-        "exp": 100,
+        "exp": 120,
         "max_hp": 568,
-        "hp": 112,
+        "hp": 90,
         "atk": 31,
-        "property": "Water",
-        "sprite_path": "menu_sprites/menusprite6.png"
-      },
-      {
-        "name": "flight-2",
-        "base": 540,
-        "level": 62,
-        "exp": 0,
-        "max_hp": 108,
-        "hp": 108,
-        "property": "Grass",
-        "sprite_path": "menu_sprites/menusprite16.png"
-      },
-      {
-        "name": "mouse",
-        "base": 800,
-        "level": 50,
-        "exp": 0,
-        "max_hp": 121,
-        "hp": 121,
-        "property": "Normal",
-        "sprite_path": "menu_sprites/menusprite10.png"
-      },
-      {
-        "name": "Grass-2",
-        "base": 340,
-        "level": 28,
-        "exp": 0,
-        "max_hp": 45,
-        "hp": 45,
-        "property": "Grass",
-        "sprite_path": "menu_sprites/menusprite2.png"
-      },
-      {
-        "name": "deergod",
-        "base": 750,
-        "level": 60,
-        "exp": 0,
-        "max_hp": 133,
-        "hp": 133,
         "property": "Water",
         "sprite_path": "menu_sprites/menusprite6.png"
       }
